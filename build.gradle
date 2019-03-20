@@ -24,7 +24,7 @@ clean.doFirst() {
 }
 
 task copyResources(type: Copy){
-    from "${buildDir}/resources/main"
+    from "${buildDir}/resources/main/web"
     into "${web_dir}"
 }
 
